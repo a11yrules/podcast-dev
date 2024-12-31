@@ -7,7 +7,7 @@ excerpt: Adding alt text on images you post on social media is important for bli
 We often post images on social media. But not many of us think of adding alt text to describe these images for blind people who rely on screen reading application. This means they can't access your content. Here's a short guide to help you get started with alt text.
 
 <figure>
-    <img src="/img/alt-text-v0.png" alt="Screenshot of a photo from this website with VoiceOver Caption panel showing the text Nic Steenhout, a white man with short hair and glasses.">
+    <img src="/img/alt-text-vo.png" alt="Screenshot of a photo from this website with VoiceOver Caption panel showing the text Nic Steenhout, a white man with short hair and glasses.">
     </figure>
 
 ## Intended audience for this post
