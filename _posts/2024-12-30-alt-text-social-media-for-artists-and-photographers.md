@@ -26,7 +26,7 @@ alt text stands for "alternate text". It is a textual description of images post
 
 ## alt text matters, but why?
 
-alt text is important. As stated earlier, alt text allows non-sighted people to consume and understand your visual content. Without alt text, they are left with knowing an image is present, but cannot tell what the image is about. Not easily at any rate[*](#more-ways).
+alt text is important. As stated earlier, alt text allows non-sighted people to consume and understand your visual content. Without alt text, they are left with knowing an image is present, but cannot tell what the image is about. [Not easily at any rate](#more-ways).
 
 No alt text means that folks with vision disabilities can't participate in the meme or the joke. No alt text means that non-sighted people can't participate like sighted people do. Heck, in some cases, [missing alt text means blind people can't do their job](https://a11yrules.com/podcast/michelle-mcquigge-tells-us-why-she-cant-do-her-job-without-alt-text/)!
 
@@ -69,24 +69,24 @@ Here are just a few examples of alt text I've written for my photos on BlueSky. 
 
 <img src="/img/sunset-tree.jpg" alt="A large tree with orange leaves is illuminated by the warm light of the sun getting lower. The same light is shining on old farm buildings. In the background, dark grey and angry storm clouds.">
 
-alt text: A large tree with orange leaves is illuminated by the warm light of the sun getting lower. The same light is shining on old farm buildings. In the background, dark grey and angry storm clouds. 
+<span aria-hidden="true">alt text: A large tree with orange leaves is illuminated by the warm light of the sun getting lower. The same light is shining on old farm buildings. In the background, dark grey and angry storm clouds.</span> 
 
 
 <img src="/img/mallard-female.jpg" alt="Female Mallard duck 3/4 out of the water, wings starting to spread out. She is mostly speckled brown except for her underwings which are white. And a rich deep turquoise rectangular patch on the upper wing.">
 
-alt text: Female Mallard duck 3/4 out of the water, wings starting to spread out. She is mostly speckled brown except for her underwings which are white. And a rich deep turquoise rectangular patch on the upper wing. 
+<span aria-hidden="true">alt text: Female Mallard duck 3/4 out of the water, wings starting to spread out. She is mostly speckled brown except for her underwings which are white. And a rich deep turquoise rectangular patch on the upper wing. </span>
 
-<img src="/img/sparrow.jpg" alt="A Yellow-crowned sparrow, a small bird on a dead and dry blackberry bush branch. The top of his head has a yellow stripe.">
+<img src="/img/sparrow.jpg" alt="A Golden-crowned kinglet, a small bird on a dead and dry blackberry bush branch. The top of his head has a yellow stripe.">
 
-alt text: A Yellow-crowned sparrow, a small bird on a dead and dry blackberry bush branch. The top of his head has a yellow stripe. 
+<span aria-hidden="true">alt text: A Golden-crowned kinglet, a small bird on a dead and dry blackberry bush branch. The top of his head has a yellow stripe. </span>
 
 <img src="/img/gbh.jpg" alt="A great blue heron on a small branch. He's viewed from the side, but he's higher up than the photographer. The background is grey and featureless sky.">
 
-alt text: A great blue heron on a small branch. He's viewed from the side, but he's higher up than the photographer. The background is grey and featureless sky.
+<span aria-hidden="true">alt text: A great blue heron on a small branch. He's viewed from the side, but he's higher up than the photographer. The background is grey and featureless sky.</span>
 
 <img src="/img/beagles.jpg" alt="An adult and juvenile bald eagle standing on an old dead tree laying on its side. The tree is in shallow water surrounded by a sandbar with low grasses.">
 
-alt text: An adult and juvenile bald eagle standing on an old dead tree laying on its side. The tree is in shallow water surrounded by a sandbar with low grasses.
+<span aria-hidden="true">alt text: An adult and juvenile bald eagle standing on an old dead tree laying on its side. The tree is in shallow water surrounded by a sandbar with low grasses.</span>
 
 ### Tricky ones
 
@@ -98,11 +98,11 @@ How's that? Can you "see" the image in your mind's eye, even if you haven't seen
 
 <img src="/img/night-sky.jpg" alt="Night sky showing lots of stars. The mid ground of the image shows leafless trees in silhouette against a lighter colored sky. The foreground is a still lake with the trees and the stars reflected in it.">
 
-alt text: Night sky showing lots of stars. The mid ground of the image shows leafless trees in silhouette against a lighter colored sky. The foreground is a still lake with the trees and the stars reflected in it. 
+<span aria-hidden="true">alt text: Night sky showing lots of stars. The mid ground of the image shows leafless trees in silhouette against a lighter colored sky. The foreground is a still lake with the trees and the stars reflected in it. </span>
 
 <img src="/img/sunset.jpg" alt="Blue sky filled with pink and grey clouds. A pond surrounded by trees in the midground and tall grasses in the foreground. The sky and trees and grasses are reflected in the pond’s still as glass water. ">
 
-alt text: Blue sky filled with pink and grey clouds. A pond surrounded by trees in the midground and tall grasses in the foreground. The sky and trees and grasses are reflected in the pond’s still as glass water. 
+<span aria-hidden="true">alt text: Blue sky filled with pink and grey clouds. A pond surrounded by trees in the midground and tall grasses in the foreground. The sky and trees and grasses are reflected in the pond’s still as glass water. </span>
 
 
 ## How to add alt text on BlueSky
