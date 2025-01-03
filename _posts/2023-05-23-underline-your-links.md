@@ -61,6 +61,4 @@ For those of us with typical sight, it becomes difficult to tell the links apart
 
 Be kind to your app users and web visitors. Underline your links.
 
-Note: I'm aware that talking about link colors on substack where I have limited control over my link colors, and a choice of using color, or underline, is not ideal from an accessibility perspective!
-
 
