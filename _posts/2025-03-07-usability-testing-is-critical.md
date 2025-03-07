@@ -23,7 +23,7 @@ I must drive some designers up the wall. My answer typically is "it depends on h
 
 <div class="inline-quote" aria-hidden="true">But having all the right ingredients doens't mean the recipe will taste good.</div>
 
-There are things we can tell outright are not going to work. Others, we can probably find a way to massage the implementation into standards conformance. But having all the right ingredients doens't mean the recipe will taste good. Using the right elements in the right way as to make it conform to the standards will not ensure an accessible experience.
+There are things we can tell outright are not going to work. We can probably find a way to massage the implementation of other things into standards conformance. But having all the right ingredients doesn't mean the recipe will taste good. Using the right elements in the right way as to make it conform to the standards will not ensure an accessible experience.
 
 ## Usability testing with disabled users
 
@@ -33,10 +33,12 @@ Almost every time I end up saying to the designer: "I wish we could do functiona
 
 ## European Accessibility Act
 
-As it happens, the [European Accessibility Act](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en) requires things to work for disabled people. It does not require things to conform to a specific accessibility standard. So we should use the standards, such as WCAG, to guide our work. But we must make sure what we designed and build actually works for disabled folks.
+As it happens, the [European Accessibility Act](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en) requires things to work for disabled people. It does not require things to conform to a specific accessibility standard. So we should use the standards, such as WCAG, to guide our work. But we must make sure what we design and build actually works for disabled folks.
 
 ## Usability testing - Just do it!
 
 You can "roll your own" usability test with disabled users, call on small outfits like Canadian [Easy Surf](https://easysurf.ca/), hire a nonprofit like [Access Works by Knowbility](https://knowbility.org/services/accessworks), or go for an enterprise-grade outfit like [Fable](https://makeitfable.com/).
 
-What's important is to ensure you test your products with disabled users. I guarantee you that you gain insight about your product's accessibility. I've been doing accessibility work for a Very Long Time, and conducting usability studies with disabled users for about 15 years. I learn something new almost every time!
+What's important is to ensure you test your products with disabled users. I guarantee you that you will gain insights about your product's accessibility. 
+
+I've been doing accessibility work for a Very Long Time, and conducting usability studies with disabled users for about 15 years. I learn something new almost every time!
