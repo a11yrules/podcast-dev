@@ -8,6 +8,7 @@ I was speaking about "alt text" all the way back in the early 90's. I'm still ra
 
 <figure>
     <img src="/img/blind-screenreader-user.jpg" alt="A young blind Asian woman viewed from profile, listening to her phone. She is wearing over the head headphones, and sitting in front of a computer with a refreshible display.">
+    <figcaption class="image-caption">This blind woman could be doing usability testing, using her phone or her computer with a refreshible braille display.</figcaption>
     </figure>
 
 
