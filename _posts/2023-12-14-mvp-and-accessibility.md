@@ -7,7 +7,7 @@ excerpt: It isn't an MVP without accessibility - it's just an MP, a Minimum Prod
 Accessibility should be part of your Minimum Viable Product (MVP). Remember this if you read nothing else of this blog post.
 
 <figure>
-    <img src="/img/wood-bridge.jpg" alt="A wheelchair user viewed from the back, crossing a rickety small wooden bridge.">
+    <img src="/img/wooden-bridge.jpg" alt="A wheelchair user viewed from the back, crossing a rickety small wooden bridge.">
     <figcaption class="image-caption">This wooden bridge could be an MVP. It's rickety and not awesome for wheelchair users, but it's accessible! (Photo Public Domain)</figcaption>
     </figure>
 
