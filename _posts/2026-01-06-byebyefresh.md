@@ -18,7 +18,7 @@ HelloFresh is a service where you can select meals and you receive a delivery wi
 
 This is a great service. It’s not a cheap way to eat. But it’s also not super expensive. For me, there were many advantages:
 
-* Don’t have to think about what I’m doing. It’s all there and easy to out together. 
+* Don’t have to think about what I’m doing. It’s all there and easy to put together. 
 * Generally quick. Under half hour for most of what I tried. 
 * Not having to buy more than I need. 
 * Easy try of new dishes with new flavor profiles. 
