@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HelloFresh? No. ByebyeFresh
-summary: I'm canceling my HelloFresh subscription because they move to using AI for everything, and it's causing problems.
+summary: I'm canceling my HelloFresh subscription because they moved to using AI for everything, and it's causing problems.
 excerpt: HelloFresh, a meal service, has switched to relying on AI for creating recipes, generating images of dishes, and preparing packing lists. There's no way to signal food allergies. We're cancelling our subscription.
 ---
 I had a trial of HelloFresh. I was hopeful it was going to work for me. But they’ve switched to AI for everything. And that’s not for me, so bye bye. 
