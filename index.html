@@ -3,12 +3,21 @@ layout: default
 ---
 
 <section id="intro" class="section-dark">
-    <p>Conversations about <span>accessibility</span></p>
-    <div class="container grid-reflow">
-        <div class="text-hero">
-            
-             
+    
+    <div class="container">
+        <p>Conversations about <span>accessibility</span></p>
+        
+        <section class="grid-section">
+        <div class="grid-item">
+            <h2>Original podcast</h2>
+            <p>Long form interviews with digital accessibility practitioners</p>
         </div>
+
+        <div class="grid-item">
+            <h2>Soundbites</h2>
+            <p>Short interviews with disabled people about the barriers they encounter on the web.</p>
+        </div>
+    </section>
         
     </div>
 </section>
@@ -60,4 +69,14 @@ layout: default
         </ul>
     </div>
 </section>-->
+<script>
+        function updateInfo() {
+            const width = window.innerWidth;
+            document.getElementById('width').textContent = width + 'px';
+            document.getElementById('layout').textContent = 
+                width >= 768 ? '2 columns' : '1 column (stacked)';
+        }
+        updateInfo();
+        window.addEventListener('resize', updateInfo);
+    </script>
     
