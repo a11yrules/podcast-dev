@@ -26,58 +26,7 @@
     <!-- AblePlayer (vendored under assets/ableplayer/) -->
     <link rel="stylesheet" href="{{ '/assets/ableplayer/ableplayer.min.css' | relative_url }}" type="text/css"/>
     <script src="{{ '/assets/ableplayer/ableplayer.min.js' | relative_url }}"></script>
-      <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Grid Container for 2 Items */
-        .grid-section {
-            display: grid;
-            gap: 1.5rem;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .grid-item {
-            background-color: light-dark($secondary);
-            color: light-dark($foreground);
-            padding: 2rem;
-            border-radius: 8px;
-            min-height: 200px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            
-        }
-
-        /* 
-         * RESPONSIVE LAYOUTS FOR 2 ITEMS
-         */
-
-        /* Large Screens: 2 items side by side */
-        @media (min-width: 768px) {
-            .grid-section {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        /* Small Screens: 1 item per row (stacked) */
-        @media (max-width: 767px) {
-            .grid-section {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        
-    </style>
+    
   </head>
 
   <body>
