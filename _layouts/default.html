@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %} {{ site.description }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 
     {% include meta.html %}
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/zbd2ksc.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}feed.xml" />
-    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ '/style.css' | relative_url }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ '/feed.xml' | relative_url }}" />
+    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}">
 
-    <!--Plausible analytics-->
-	 <!-- <script defer data-domain="nicolas-steenhout.com" src="https://plausible.io/js/script.js"></script>-->
+    <!-- Expand/collapse -->
+    <script src="{{ '/js/expand.js' | relative_url }}"></script>
 
-      <!--expand/collapse-->
-      <script src="/podcast-dev/js/expand.js"></script>
-    <!-- Able Player -->
+    <!-- jQuery (needed by the AblePlayer build used here) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
-    <link rel="stylesheet" href="/podcast-dev/ableplayer/ableplayer.min.css" type="text/css"/>
-    <script src="/podcast-dev/ableplayer/ableplayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+
+    <!-- AblePlayer (vendored under assets/ableplayer/) -->
+    <link rel="stylesheet" href="{{ '/assets/ableplayer/ableplayer.min.css' | relative_url }}" type="text/css"/>
+    <script src="{{ '/assets/ableplayer/ableplayer.min.js' | relative_url }}"></script>
   </head>
 
   <body>
-	  <div id="toolbar">
-		  <a href="#main" class="skip-link">Skip to main content</a>
-	  </div>
+    <div id="toolbar">
+      <a href="#main" class="skip-link">Skip to main content</a>
+    </div>
+
     <div class="wrapper-masthead">
       <header id="navbar" class="container masthead">
         <div class="site-info">
-          <a href="{{ site.baseurl }}">
-            <!--{% include logo.html %}-->
+          <a href="{{ '/' | relative_url }}">
             <span>A11y Rules <br>Podcast</span>
           </a>
         </div>
@@ -50,7 +52,7 @@
     <div class="wrapper-footer">
       <footer class="container grid-reflow">
         <div class="footer-1">
-          <p><a href="/accessibility/">Accessibility statement</a> | <a href="/sitemap/">Sitemap</a> <!--| <a href="">Newsletter</a>--></p>
+          <p><a href="{{ '/accessibility/' | relative_url }}">Accessibility statement</a> | <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></p>
           <p>&#169;2024 - 2025 Nicolas Steenhout. All Rights Reserved.</p>
         </div>
         <div class="footer-2">
@@ -59,9 +61,9 @@
       </footer>
     </div>
 
-     <!-- Mobile navigation -->
-     <script src="/podcast-dev/js/themeToggle.js"></script>
-     <script src="/podcast-dev/js/collapse.js"></script>
-	<script src="/podcast-dev/js/validation.js"></script>
+    <!-- Mobile/navigation and theme scripts -->
+    <script src="{{ '/js/themeToggle.js' | relative_url }}"></script>
+    <script src="{{ '/js/collapse.js' | relative_url }}"></script>
+    <script src="{{ '/js/validation.js' | relative_url }}"></script>
   </body>
 </html>
