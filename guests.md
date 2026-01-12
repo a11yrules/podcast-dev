@@ -57,7 +57,7 @@ permalink: /guests/
     <article>
       <h3>{{ guest.last_name }}, {{ guest.first_name }}</h3>
       {% if guest.image %}
-      <img src="{{ guest.image }}" alt="{{ guest.first_name }} {{ guest.last_name }}">
+      <img src="{{ guest.image }}" alt="">
       {% endif %}
       <p>{{ guest.bio }}</p>
       {% if guest.url %}
