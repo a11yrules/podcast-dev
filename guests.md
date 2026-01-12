@@ -9,8 +9,6 @@ permalink: /guests/
 <ul>
 {% assign soundbites_posts = site.posts | where: "categories", "guests" %}
 {% for post in soundbites_posts %}
-  <li><a href="/podcast/{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="/podcast{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
-
-</section>
