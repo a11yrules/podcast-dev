@@ -14,8 +14,11 @@ permalink: /soundbites/
 {% endfor %}
 </ul>
 
+<h2>Debugging Output</h2>
 <pre>
 {% for post in site.posts %}
-  {{ post | inspect }}
+- Title: {{ post.title }}
+- Categories: {{ post.categories }}
+- Permalink: {{ post.url }}
 {% endfor %}
 </pre>
