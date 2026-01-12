@@ -8,7 +8,7 @@ permalink: /the-original/
 
 <ul>
 {% for post in site.posts %}
-  {% if post.category == "original" %}
+  {% if post.categories == "original" %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
 {% endfor %}
