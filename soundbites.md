@@ -13,3 +13,9 @@ permalink: /soundbites/
   {% endif %}
 {% endfor %}
 </ul>
+
+<pre>
+{% for post in site.posts %}
+  {{ post | inspect }}
+{% endfor %}
+</pre>
