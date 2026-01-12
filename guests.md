@@ -2,7 +2,6 @@
 layout: default
 title: Guests
 permalink: /guests/
-categories: guests
 ---
 
 <h1>Guests</h1>
