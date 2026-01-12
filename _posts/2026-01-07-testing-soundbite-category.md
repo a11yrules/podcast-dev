@@ -3,7 +3,7 @@ layout: post
 title: Testing Soundbite Category
 description: Testing to see if this shows in a soundbite category
 permalink: /podcast/testing-soundbite-category/
-category: soundbites
+categories: soundbites
 ---
 
 ## Soundbite episode
