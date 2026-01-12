@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Kelsey Byers
+title: Another soundbite test
 description: Testing to see if this shows in a soundbite category
-permalink: /guest/kelsey-byers
+permalink: /podcast/testing-soundbite-category-2/
 categories: guests
 ---
 
-<h1>{{ page.title }}</h1>
+## Soundbite episode
 
-<img src="/img/kelsey-byers.jpg" alt="" class="guest-img">
+This is a second test page to see if the category page raises both episodes.
 
-<p>Plant scientist. </p>

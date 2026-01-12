@@ -7,9 +7,8 @@ permalink: /the-original/
 <h1>The Original</h1>
 
 <ul>
-{% for post in site.posts %}
-  {% if post.categories == "original" %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endif %}
+{% assign soundbites_posts = site.posts | where: "categories", "original" %}
+{% for post in soundbites_posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
