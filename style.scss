@@ -916,3 +916,19 @@ details {
                 grid-template-columns: 1fr;
             }
         }
+
+/* Guest list nav styling */
+
+/* Alphabetical navigation */
+nav[aria-label="Jump to letter"] ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+}
+
+nav[aria-label="Jump to letter"] li {
+  display: inline;
+}
+
