@@ -19,7 +19,7 @@ permalink: /guests/
 {% comment %} Build alphabetical navigation {% endcomment %}
 <nav aria-label="Jump to letter">
   <ul>
-  {% assign letters = "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z" | split: "," %}
+  {% assign letters = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z" | split: "," %}
   {% for letter in letters %}
     {% assign has_guests = false %}
     {% for guest in site.data.guests %}
