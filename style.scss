@@ -942,3 +942,15 @@ nav[aria-label="Jump to letter"] li:after{
     content: " ] ";
 	padding-left:0.2em;
 }
+
+.guest-list {
+  width: 150px;
+  float: left;
+  padding: 0 10px 10px 0;
+}
+.guest-list img {
+  width: 125px;
+  border-radius: 50%;
+    height: auto;
+  max-width: 100%;
+}
