@@ -39,16 +39,10 @@ tags:
 ## Listen to the Episode
 
 <div class="audio-container">
-<!--<audio id="episode-003" 
-       data-able-player 
-       preload="auto"
-       data-transcript-div="transcript3">
-    <source type="audio/mpeg" src="{{ audio_url }}"/>
-    
-</audio> -->
+
 
 <audio id="audio1" data-able-player preload="auto" data-heading-level="2" data-speed-icons="animals" data-root-path="/podcast-dev/assets/ableplayer/">
-  <source type="audio/mpeg" src="{{ audio_url }}"/>
+  <source type="audio/mpeg" src="https://a11yrules.ams3.cdn.digitaloceanspaces.com/podcast/episodes/E065-a11y-rules-soundbites-kelsey-byers.mp3"/>
 </audio>
 
 </div>
