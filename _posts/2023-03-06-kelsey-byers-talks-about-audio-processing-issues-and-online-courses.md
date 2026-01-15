@@ -18,9 +18,6 @@ audio_type: "audio/mpeg"
 duration: "PT7M15S"
 duration_formatted: "7:15"
 
-# Future Publication Date (this makes it scheduled)
-date: 2023-03-06
-
 # Episode Artwork
 
 
