@@ -10,6 +10,7 @@ permalink: /series/soundbites/
 <ul>
 {% assign soundbites_posts = site.posts | where: "categories", "soundbites" %}
 {% for post in soundbites_posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
