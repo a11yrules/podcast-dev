@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Soundbites
-permalink: /soundbites/
+permalink: /series/soundbites/
 ---
 
 <h1>Soundbites</h1>
