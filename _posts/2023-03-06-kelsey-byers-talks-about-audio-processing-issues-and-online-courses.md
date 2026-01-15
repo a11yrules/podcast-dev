@@ -1,5 +1,5 @@
 ---
-layout: podcast
+layout: default
 title: "Kelsey Byers talks about audio processing issues and online courses"
 description: "Interview with Kelsey Byer"
 type: podcast
