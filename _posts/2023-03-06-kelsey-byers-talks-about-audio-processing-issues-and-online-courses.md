@@ -45,7 +45,7 @@ tags:
        data-transcript-div="transcript3">
     <source type="audio/mpeg" src="{{ audio_url }}"/>
     
-</audio>-->
+</audio> -->
 
 <audio id="audio1" data-able-player preload="auto" data-heading-level="2" data-speed-icons="animals" data-root-path="/podcast-dev/assets/ableplayer/">
   <source type="audio/mpeg" src="{{ audio_url }}"/>
@@ -54,7 +54,8 @@ tags:
 </div>
 
 <div id="transcript3">
-    ## transcript
+    
+## transcript
     
 **Nic**
 Hi, I’m Nic Steenhout. And you’re listening to the accessibility rules soundbite, a series of short podcasts where disabled people explain their impairment, and what barriers they encounter on the web. Just a reminder that the transcript for this episode and all other episodes are available at the time of the publication on the website at a11yrules.com. I want to thank Fable for sponsoring this episode. Fable is a leading accessibility platform powered by disabled people. Fable moves organizations from worrying about compliance to building incredible and accessible user experiences. And they do that through product testing and custom courses. You can learn more about how fable can work for your team at https://makeitfable.com/nic. Today I’m talking with Kelsey Byers. Hey, Kelsey, how are you?
