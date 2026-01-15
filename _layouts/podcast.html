@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="date">
+      <p>
+        {% if page.last_modified_at %}
+        Last updated: {{ page.last_modified_at | date: "%B %e, %Y" }}
+        {% else %}
+        Published on {{ page.date | date: "%B %e, %Y" }}
+        {% endif %}
+      </p>
+    </div>
+    </div>
+
+  <div class="entry container">
+    <div id="summary">
+      <div class="summary">
+        <h2>Summary</h2>
+        <p>{{ page.summary }}</p>
+      </div>
+    </div>
+      
+
+            
+            <div class="episode-meta">
+                <h2>Episode Information</h2>
+                {% if page.episode_number %}
+                <div class="meta-item">
+                    <span class="meta-label">Episode:</span> 
+                    {% if page.season_number %}S{{ page.season_number }}E{% endif %}{{ page.episode_number }}
+                </div>
+                {% endif %}
+                {% if page.date %}
+                <div class="meta-item">
+                    <span class="meta-label">Published:</span> {{ page.date | date: "%B %d, %Y" }}
+                </div>
+                {% endif %}
+                {% if page.duration %}
+                <div class="meta-item">
+                    <span class="meta-label">Duration:</span> {{ page.duration_formatted | default: page.duration }}
+                </div>
+                {% endif %}
+                {% if page.author %}
+                <div class="meta-item">
+                    <span class="meta-label">Host:</span> {{ page.author }}
+                </div>
+                {% endif %}
+            </div>
+      
+    {{ content }}
+  </div>
+</article>

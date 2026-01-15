@@ -1,0 +1,45 @@
+<!-- Podcast Episode Meta Tags -->
+    {% if page.episode_type %}
+    <meta name="apple:episode_type" content="{{ page.episode_type }}">
+    <meta name="apple:episode_number" content="{{ page.episode_number }}">
+    {% if page.season_number %}
+    <meta name="apple:season_number" content="{{ page.season_number }}">
+    {% endif %}
+    <meta name="apple:duration" content="{{ page.duration }}">
+    <meta name="apple:explicit" content="{% if page.explicit %}true{% else %}false{% endif %}">
+    {% endif %}
+    
+    <!-- Open Graph Meta Tags (for social sharing) -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:type" content="{% if page.episode_type %}music.song{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    {% if page.artwork %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.artwork }}">
+    {% elsif site.podcast_artwork %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.podcast_artwork }}">
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.title }}">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.artwork %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.artwork }}">
+    {% elsif site.podcast_artwork %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ site.podcast_artwork }}">
+    {% endif %}
+    
+    <!-- Audio/Podcast Specific Meta Tags -->
+    {% if page.audio_url %}
+    <meta property="og:audio" content="{{ page.audio_url }}">
+    <meta property="og:audio:type" content="{{ page.audio_type | default: 'audio/mpeg' }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Podcast Feed" href="{{ site.url }}{{ site.baseurl }}/podcast.rss">
+    {% endif %}
+    
+    <!-- Publication Date -->
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta name="pubdate" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}

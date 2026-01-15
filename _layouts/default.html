@@ -6,6 +6,11 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 
     {% include meta.html %}
+      
+      <!-- Conditionally load podcast meta -->
+  {% if page.type == "podcast" %}
+    {% include podcast-meta.html %}
+  {% endif %}
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
