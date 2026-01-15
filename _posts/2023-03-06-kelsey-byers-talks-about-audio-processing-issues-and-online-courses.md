@@ -42,12 +42,11 @@ tags:
 
 
 <audio id="audio1" data-able-player preload="auto" data-heading-level="2" data-speed-icons="animals" data-root-path="/podcast-dev/assets/ableplayer/">
-  <source type="audio/mpeg" src="https://a11yrules.ams3.cdn.digitaloceanspaces.com/podcast/episodes/E065-a11y-rules-soundbites-kelsey-byers.mp3"/>
+  <source type="audio/mpeg" src="{{ page.audio_url }}"/>
 </audio>
 
 </div>
 
-<div id="transcript3">
     
 ## transcript
     
@@ -104,7 +103,7 @@ I’m glad my transcripts are helping you consume the show. I I think and one of
 
 **Kelsey**
 Thanks so much, Nic. It’s been great
-</div>
+
 
 ## Show Notes
 
