@@ -28,27 +28,27 @@ layout: default
             
             <div class="episode-meta">
                 <h2>Episode Information</h2>
+                <ul>
                 {% if page.episode_number %}
-                <div class="meta-item">
-                    <span class="meta-label">Episode:</span> 
+                <li>Episode: 
                     {% if page.season_number %}S{{ page.season_number }}E{% endif %}{{ page.episode_number }}
-                </div>
+                </li>
                 {% endif %}
                 {% if page.date %}
-                <div class="meta-item">
-                    <span class="meta-label">Published:</span> {{ page.date | date: "%B %d, %Y" }}
-                </div>
+                    <li>Published:</li> {{ page.date | date: "%B %d, %Y" }}
+                </li>
                 {% endif %}
                 {% if page.duration %}
-                <div class="meta-item">
-                    <span class="meta-label">Duration:</span> {{ page.duration_formatted | default: page.duration }}
-                </div>
+                <li>Duration: {{ page.duration_formatted | default: page.duration }}
+                </li>
                 {% endif %}
                 {% if page.author %}
-                <div class="meta-item">
-                    <span class="meta-label">Host:</span> {{ page.author }}
-                </div>
+                <li>Host: {{ page.author }}
+                </li>
                 {% endif %}
+                {% if page.series %}
+                <li>Series: {{ page.series }}</li>
+                </ul>
             </div>
       
     {{ content }}

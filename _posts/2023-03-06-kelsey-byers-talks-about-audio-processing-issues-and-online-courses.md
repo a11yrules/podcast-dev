@@ -18,6 +18,9 @@ audio_type: "audio/mpeg"
 duration: "PT7M15S"
 duration_formatted: "7:15"
 
+# Series
+series: "A11y Rules Soundbite"
+
 # Episode Artwork
 
 
