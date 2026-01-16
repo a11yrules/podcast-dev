@@ -955,5 +955,37 @@ nav[aria-label="Jump to letter"] li:after{
   max-width: 100%;
 }
 
-/* Side by side podcast stuff */
+/* inline episode info list styling */
 
+.episode-meta ul {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 0.75rem; /* Space around separators */
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.episode-meta li {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Add separator after each item except the last */
+.episode-meta li:not(:last-child)::after {
+    content: "|";
+    margin-left: 0.75rem;
+    color: #666; /* Slightly muted color for separator */
+}
+/* Optional: Make it stack vertically on very small screens */
+@media (max-width: 480px) {
+    .episode-meta ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    /* Remove separators when stacked */
+    .episode-meta li:not(:last-child)::after {
+        content: none;
+    }
+}
