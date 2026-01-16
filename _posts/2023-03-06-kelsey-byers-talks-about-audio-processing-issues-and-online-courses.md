@@ -5,7 +5,7 @@ description: "Interview with Kelsey Byer"
 type: podcast
 summary: "Kelsey says: “If your podcast has transcripts. So I can go through and actually read the podcast, I can get the content, I can understand what’s going on. And I don’t have to try to concentrate really hard to try to understand the podcast.”"
 
-permalink: kelsey-byers-talks-about-audio-processing-issues-and-online-courses/
+permalink: /podcast/kelsey-byers-talks-about-audio-processing-issues-and-online-courses/
 # Podcast Episode Metadata
 episode_type: full
 episode_number: 65
