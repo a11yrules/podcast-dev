@@ -1,14 +1,15 @@
 ---
 layout: default
 title: The Original
-permalink: /the-original/
+permalink: /series/the-original/
 ---
 
 <h1>The Original</h1>
 
 <ul>
-{% assign soundbites_posts = site.posts | where: "categories", "original" %}
-{% for post in soundbites_posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% assign original_posts = site.posts | where: "categories", "original" %}
+{% for post in original_posts %}
+  <!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
