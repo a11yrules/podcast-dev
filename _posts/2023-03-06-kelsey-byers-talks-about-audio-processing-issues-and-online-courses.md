@@ -44,7 +44,7 @@ tags:
 </audio>
 
 </div>
-    
+    </div><!-- Closing .episode-layout opened in _layouts/podcast.html -->
 <details>
     <summary><h2>Transcript</h2></summary>
     <p><strong>Nic</strong><br>
