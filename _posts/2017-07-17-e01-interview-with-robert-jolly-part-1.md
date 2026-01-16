@@ -2,7 +2,7 @@
 layout: podcast
 title: "E01 – Interview with Robert Jolly – Part 1"
 type: podcast
-summary: "Kelsey says: “If your podcast has transcripts. So I can go through and actually read the podcast, I can get the content, I can understand what’s going on. And I don’t have to try to concentrate really hard to try to understand the podcast.”"
+summary: "This is the first part of my chat with Robert Jolly. Robert talks about his definition of accessibility, his personal experience with disability and how it influenced his thinking about accessibility."
 
 permalink: /podcast/e01-interview-with-robert-jolly-part-1/
 # Podcast Episode Metadata
