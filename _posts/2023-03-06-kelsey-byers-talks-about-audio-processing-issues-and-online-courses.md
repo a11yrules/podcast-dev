@@ -45,11 +45,6 @@ tags:
 
 </div>
 
-{% raw %}
-{::nomarkdown}
-</div><!-- Closing .episode-layout opened in _layouts/podcast.html -->
-{:/nomarkdown}
-{% endraw %}
 
 <details>
     <summary><h2>Transcript</h2></summary>
