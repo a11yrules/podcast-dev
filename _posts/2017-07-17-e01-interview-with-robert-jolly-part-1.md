@@ -47,7 +47,7 @@ tags:
 
 <details>
     <summary><h2>Transcript</h2></summary>
-    p>Support for the A11y Rules Podcast comes from people like you. I really do appreciate your support.</p>
+    <p>Support for the A11y Rules Podcast comes from people like you. I really do appreciate your support.</p>
 <p><strong>Nicolas</strong>: Welcome! This is the A11y Rules Podcast. I’m Nic Steenhout and I talk with people involved in one way or another with web accessibility.</p>
 <p>Nicolas: Today we’re talking to Robert Jolly and I could go on and do a long introduction, that may or may not be right. But I think I’m going to start by asking Robert to tell us in elevator pitch who Robert is, what Robert does, and what makes you tick.</p>
 <p><strong>Robert</strong>: Okay. I am a father, and I have two boys that are five and two. Or, just about to turn five and two this weekend. And so that’s the main definition of me. In terms of professional life, I am a senior web accessibility strategist at Knowbility. Knowbility is a non-profit, 501c3 non-profit based out of Austin, Texas. I live in Northern Colorado with my wife and kids. I am interested in accessibility, obviously. I’m interested in inclusive design and how we can, as web professionals, up our game and build accessibility and inclusive design into our practices.</p>
@@ -99,8 +99,6 @@ tags:
 
 ## Show Notes
 
-* [Ehlers–Danlos syndrome](https://en.wikipedia.org/wiki/Ehlers%E2%80%93Danlos_syndrome)
-* [ADHD](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder)
-* [Auditory Processing Disorder - ADP](https://en.wikipedia.org/wiki/Auditory_processing_disorder)
-
+* [Knowbility](https://knowbility.org)
+* MOAWR to come
 
