@@ -45,7 +45,10 @@ tags:
 
 </div>
 
+{% raw %}
 </div><!-- Closing .episode-layout opened in _layouts/podcast.html -->
+{% endraw %}
+
 <details>
     <summary><h2>Transcript</h2></summary>
     <p><strong>Nic</strong><br>
