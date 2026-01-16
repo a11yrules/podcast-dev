@@ -90,4 +90,8 @@ Thanks so much, Nic. It’s been great</p>
 
 ## Show Notes
 
+* [Ehlers–Danlos syndrome](https://en.wikipedia.org/wiki/Ehlers%E2%80%93Danlos_syndrome)
+* [ADHD](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder)
+* [Auditory Processing Disorder - ADP](https://en.wikipedia.org/wiki/Auditory_processing_disorder)
+
 
