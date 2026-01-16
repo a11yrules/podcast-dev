@@ -961,6 +961,7 @@ nav[aria-label="Jump to letter"] li:after{
     display: flex;
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
     gap: 0.75rem; /* Space around separators */
+    justify-content: center; /* Centers items horizontally */
     list-style: none;
     padding-left: 0;
     margin: 0;
