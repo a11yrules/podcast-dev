@@ -66,7 +66,7 @@
   image: https://a11yrules.com/wp-content/uploads/2023/03/kelsey-byers.jpg
   bio: "Plant scientist."
   twitter: https://twitter.com/plantpollinator
-  url: /podcast/guest/kelsey-byers/
+  url: /podcast-dev/guest/kelsey-byers/
 
 - first_name: Mike
   last_name: Calvo
@@ -291,7 +291,7 @@
   last_name: Jolly
   image: https://a11yrules.com/wp-content/uploads/2018/01/robert-jolly.jpg
   bio: "Robert Jolly is an accessibility-focused product manager working for the U.S. government on GSA's 10x Delivery Team. Robert was previously at Knowbility and was a member of the W3C's Web Accessibility Initiative Education and Outreach Working Group."
-  url: /podcast/guest/robert-jolly/
+  url: /podcast-dev/guest/robert-jolly/
 
 - first_name: Laura
   last_name: Kalbag
