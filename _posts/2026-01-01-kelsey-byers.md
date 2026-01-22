@@ -4,6 +4,7 @@ title: Kelsey Byers
 description: Testing to see if this shows in a soundbite category
 permalink: /guest/kelsey-byers
 categories: guests
+slug: "kelsey-byers"
 ---
 
 <h1>{{ page.title }}</h1>
