@@ -26,6 +26,10 @@ series: "A11y Rules Podcast"
 # Author/Host
 author: "Nic Steenhout"
 
+guests:
+  - robert-jolly
+  
+
 # Content Rating
 explicit: false
 
