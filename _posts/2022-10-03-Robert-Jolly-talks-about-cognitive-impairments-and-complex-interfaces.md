@@ -30,7 +30,7 @@ author: "Nic Steenhout"
 explicit: false
 
 # Categories/Tags
-categories: soundbite
+categories: soundbites
 tags: 
 ---
 
