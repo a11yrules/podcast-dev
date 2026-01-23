@@ -28,7 +28,8 @@ Nicolas Steenhout in a few words:
 * I've worked on three continents.
 * I created and hosted over 160 episodes between 2 podcast series, since 2017.
   
-## A11y Rules Podcast Network - name {: numeronym }
+
+<h2 id="numeronym">A11y Rules Podcast Network - name</h2>
 
 The "word" Ally stands for accessibility. It is a numeric abbreviation, or numeronym. The idea is that you take the first and last letter of a word and count how many letters are in between. Accessibility has 11 characters between the A and the Y. So we get A-11-y. Or a11y. A11y is pronounced "accessibility".
 
