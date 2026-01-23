@@ -4,17 +4,8 @@ title: Guests
 permalink: /guests/
 ---
 
-<h1>Guests - Nic version</h1>
 
-<ul>
-{% assign soundbites_posts = site.posts | where: "categories", "guests" %}
-{% for post in soundbites_posts %}
-  <li><a href="/podcast-dev{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-
-<h2>Guests - Claude</h2>
+<h1>Guests</h1>
 
 {% comment %} Build alphabetical navigation {% endcomment %}
 <nav aria-label="Jump to letter">
@@ -51,7 +42,7 @@ permalink: /guests/
   
   {% if letter_guests.size > 0 %}
   <section>
-    <h2 id="{{ letter }}">{{ letter }}</h2>
+    <h2 id="{{ letter }}">{{ letter | upcase }}</h2>
     
     {% for guest in letter_guests %}
     <article>
