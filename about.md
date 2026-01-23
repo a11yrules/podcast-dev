@@ -34,7 +34,7 @@ The "word" Ally stands for accessibility. It is a numeric abbreviation, or numer
 
 There is controversy in both disability and digital accessibility communities about the use of the a11y numeronym. I can't argue against people who say it is not friendly. Some even say it's not accessible! And they have a point. [Jonathan Mosen goes as far as saying it is harmful](https://mosen.org/a11yharm/).
 
-Originally, the numeronym started being used on Twitter (a long long time before that platform was known as X). At the time, we had a 144 character limit. Every character counted. It made a big difference being able to "shave" 11 characters. Talks of "it's not accessible", "it's not inclusive", or "it's harmful" started surfacing after I started this show in 2017. I was not aware of any significant controversy back then.
+Originally, the numeronym started being used on Twitter (a long long time before that platform was known as X). At the time, we had a 140 character limit. Every character counted. It made a big difference being able to "shave" 11 characters. Talks of "it's not accessible", "it's not inclusive", or "it's harmful" started surfacing after I started this show in 2017. I was not aware of any significant controversy back then.
 
 I won't change the name of the shows. They remain "The A11y Rules Podcast", or part of "The A11y Rules Podcast Network".
 
