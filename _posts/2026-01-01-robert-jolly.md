@@ -7,7 +7,6 @@ categories: guests
 slug: "robert-jolly"
 ---
 
-<h1>{{ page.title }}</h1>
 
 
 <img src="{{ "/img/robert-jolly.jpg" | relative_url }}" alt="" class="guest-img">
