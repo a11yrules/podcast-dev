@@ -178,6 +178,5 @@ tags:
 
 ## Show Notes
 
-* [Knowbility](https://knowbility.org)
-* MOAWR to come
+
 
