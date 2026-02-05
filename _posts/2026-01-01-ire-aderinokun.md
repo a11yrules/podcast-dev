@@ -4,7 +4,7 @@ title: Ire Aderinokun
 description: Information about my podcast guest Ire Aderinokum
 permalink: /guest/ire-aderinokun/
 categories: guests
-slug: "ire-aderinokum"
+slug: "ire-aderinokun"
 ---
 
 <img src="{{ "/img/ire-aderinokun.jpg" | relative_url }}" alt="" class="guest-img">
