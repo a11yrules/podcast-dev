@@ -10,7 +10,7 @@ episode_type: full
 episode_number: 77
 
 # Audio Information
-audio_url: hhttps://a11yrules.ams3.digitaloceanspaces.com/podcast/episodes/E077-a11y-rules-amy-carney-part-2.mp3
+audio_url: https://a11yrules.ams3.digitaloceanspaces.com/podcast/episodes/E077-a11y-rules-amy-carney-part-2.mp3
 audio_type: "audio/mpeg"
 
 # Duration
