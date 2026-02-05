@@ -8,14 +8,13 @@
   last_name: Ausbun
   image: https://a11yrules.com/wp-content/uploads/2020/12/michael-ausbun.jpg
   bio: "Michael Ausbun is a blind accessibility specialist working in the tertiary education field."
-  twitter: https://twitter.com/michaelausbun
-  url: https://a11yrules.com/guest/michael-ausbun/
+  url: /podcast-dev/guest/michael-ausbun/
 
 - first_name: CB
   last_name: Averitt
   image: https://a11yrules.com/wp-content/uploads/2018/05/cb.jpg
   bio: "I am with Deque Systems. It's a pleasure to be here. I am a senior consultant with them. I do mostly work with dot-com clients. My client right now is a Fortune 50 company and I do a lot of volunteer work with trainings and things like that as well. It's a pleasure to be here."
-  url: https://a11yrules.com/guest/cb-averitt/
+  url: /podcast-dev/guest/cb-averitt/
 
 - first_name: Sina
   last_name: Bahram

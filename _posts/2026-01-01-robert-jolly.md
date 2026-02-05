@@ -1,7 +1,7 @@
 ---
 layout: guest
 title: Robert Jolly
-description: Testing to see if this shows in a soundbite category
+description: Information about my podcast guest Robert Jolly
 permalink: /guest/robert-jolly/
 categories: guests
 slug: "robert-jolly"
