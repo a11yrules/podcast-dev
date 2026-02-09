@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The shows in the network
-permalink: /the-shows/
+permalink: /series/the-shows/
 ---
 
 
