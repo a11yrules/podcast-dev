@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The shows in the network
+title: Takeaways, thoughts, and insights from the shows
 permalink: /takeaways/
 ---
 
