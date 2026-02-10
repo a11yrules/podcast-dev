@@ -1,24 +1,24 @@
 - first_name: Ire
   last_name: Aderinokun
-  image: https://a11yrules.com/wp-content/uploads/2019/01/ire-aderinokun.jpg
+  image: /img/ire-aderinokun.jpg
   bio: "Ire is a User Interface Designer & Front-End Developer based in Lagos, Nigeria."
   url: /podcast-dev/guest/ire-aderinokun/
 
 - first_name: Michael
   last_name: Ausbun
-  image: https://a11yrules.com/wp-content/uploads/2020/12/michael-ausbun.jpg
+  image: /img/michael-ausbun.jpg
   bio: "Michael Ausbun is a blind accessibility specialist working in the tertiary education field."
   url: /podcast-dev/guest/michael-ausbun/
 
 - first_name: CB
   last_name: Averitt
-  image: https://a11yrules.com/wp-content/uploads/2018/05/cb.jpg
+  image: /img/cb.jpg
   bio: "I am with Deque Systems. It's a pleasure to be here. I am a senior consultant with them. I do mostly work with dot-com clients. My client right now is a Fortune 50 company and I do a lot of volunteer work with trainings and things like that as well. It's a pleasure to be here."
   url: /podcast-dev/guest/cb-averitt/
 
 - first_name: Sina
   last_name: Bahram
-  image: https://a11yrules.com/wp-content/uploads/2018/01/sina-bahram.jpg
+  image: /img/sina-bahram.jpg
   bio: "Sina runs an accessibility firm called Prime Access Consulting. We do a lot of work with organizations especially in the cultural heritage sectors, like museums, and non-profits oriented around that space but also with start-ups and universities and larger companies on digital accessibility, whether that's web accessibility, iPhone apps, digital interactives that involve large touch interfaces in museums, and applying the principles of inclusive and universal design to that so those types of experiences and technologies are available to the widest possible audience."
   url: /podcast-dev/guest/sina-bahram/
 
@@ -76,7 +76,7 @@
 
 - first_name: Amy
   last_name: Carney
-  image: https://a11yrules.com/wp-content/uploads/2019/04/amy-carney.jpg
+  image: /img/amy-carney.jpg
   bio: "I'm a web designer and developer. I'm also an Alaskan and Kansan. Mum, wife and middle child."
   slug: amy-carney
   url: /podcast-dev/guest/amy-carney/
@@ -289,7 +289,7 @@
 
 - first_name: Robert
   last_name: Jolly
-  image: https://a11yrules.com/wp-content/uploads/2018/01/robert-jolly.jpg
+  image: /img/robert-jolly.jpg
   bio: "Robert Jolly is an accessibility-focused product manager working for the U.S. government on GSA's 10x Delivery Team. Robert was previously at Knowbility and was a member of the W3C's Web Accessibility Initiative Education and Outreach Working Group."
   url: /podcast-dev/guest/robert-jolly/
 
