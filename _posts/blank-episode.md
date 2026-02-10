@@ -18,7 +18,7 @@ duration: ""
 duration_formatted: ""
 
 # Series
-series: "A11y Rules Podcast"
+series: ""
 
 # Episode Artwork
 
