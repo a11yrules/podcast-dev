@@ -10,12 +10,12 @@ episode_type: full
 episode_number: 62
 
 # Audio Information
-audio_url: https://s3-us-west-1.amazonaws.com/patreon-posts/8KFkRiYYwL0bUbF632lrrEqMH0lLRTwEmjJjFgjtwEeLEwWUKRSZwYiFRlhyQUEb.mp3
+audio_url: https://a11yrules.ams3.cdn.digitaloceanspaces.com/podcast/episodes/E062-a11y-rules-eric-bailey-part-1.mp3
 audio_type: "audio/mpeg"
 
 # Duration
-duration: ""
-duration_formatted: ""
+duration: "PT26M41S"
+duration_formatted: "26:41"
 
 # Series
 series: "A11y Rules Podcast"
