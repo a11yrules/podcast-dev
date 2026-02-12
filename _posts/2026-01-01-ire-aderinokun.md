@@ -7,7 +7,7 @@ categories: guests
 slug: "ire-aderinokun"
 ---
 
-<img src="{{ "/img/ire-aderinokun.jpg" | relative_url }}" alt="" class="guest-img">
+<img src="{{ "/img/guest/ire-aderinokun.jpg" | relative_url }}" alt="" class="guest-img">
 
 <p>Ire is a User Interface Designer & Front-End Developer based in Lagos, Nigeria</p>
 

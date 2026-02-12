@@ -9,7 +9,7 @@ slug: "kelsey-byers"
 
 
 
-<img src="/podcast-dev/img/kelsey-byers.jpg" alt="" class="guest-img">
+<img src="/podcast-dev/img/guest/kelsey-byers.jpg" alt="" class="guest-img">
 
 <p>Plant scientist. </p>
 

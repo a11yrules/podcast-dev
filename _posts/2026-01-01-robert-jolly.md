@@ -9,7 +9,7 @@ slug: "robert-jolly"
 
 
 
-<img src="{{ "/img/robert-jolly.jpg" | relative_url }}" alt="" class="guest-img">
+<img src="{{ "/img/guest/robert-jolly.jpg" | relative_url }}" alt="" class="guest-img">
 
 <p>Robert Jolly is an accessibility-focused product manager working for the U.S. government on GSA’s 10x Delivery Team. Robert was previously at Knowbility and was a member of the W3C’s Web Accessibility Initiative Education and Outreach Working Group.</p>
 

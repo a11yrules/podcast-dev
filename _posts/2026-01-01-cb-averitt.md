@@ -9,7 +9,7 @@ slug: "cb-averitt"
 
 
 
-<img src="{{ "/img/cb-averitt.jpg" | relative_url }}" alt="" class="guest-img">
+<img src="{{ "/img/guest/cb-averitt.jpg" | relative_url }}" alt="" class="guest-img">
 
 <p>I am with Deque Systems. It’s a pleasure to be here. I am a senior consultant with them. I do mostly work with dot-com clients. My client right now is a Fortune 50 company and I do a lot of volunteer work with trainings and things like that as well. It’s a pleasure to be here. </p>
 

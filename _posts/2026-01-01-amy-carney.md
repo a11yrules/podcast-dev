@@ -9,7 +9,7 @@ slug: "amy-carney"
 
 
 
-<img src="{{ "/img/amy-carney.jpg" | relative_url }}" alt="" class="guest-img">
+<img src="{{ "/img/guest/amy-carney.jpg" | relative_url }}" alt="" class="guest-img">
 
 <p>I’m a web designer and developer. I’m also an Alaskan and Kansan. Mum, wife and middle child.</p>
 
