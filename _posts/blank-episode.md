@@ -1,10 +1,11 @@
 ---
+# Save as {yyyy-mm-dd-firstn-lastn-WPrelativeURL}
 layout: podcast
 title: "" # 1. WP podcast title
 type: podcast
 summary: "" # 2. WP podcast summary
 
-permalink: /podcast/... # 3. replace ... with {WP relative URL}
+permalink: /podcast/.../ # 3. replace ... with {WP relative URL}
 # Podcast Episode Metadata
 episode_type: full
 episode_number: # 4. episode number found in WP Admin
