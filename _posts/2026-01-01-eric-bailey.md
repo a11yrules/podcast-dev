@@ -4,7 +4,7 @@ title: Eric Bailey
 description: Information about my podcast guest Eric Bailey
 bio: "Eric is a designer who works for an agency in Massachussetts. He also writes about usability and accessibility for publications such as CSS-Tricks and Smashing Magazine."
 image: "/img/guest/eric-bailey.png"
-permalink: /guest/eric-bailey
+permalink: /guest/eric-bailey/
 categories: guests
 slug: "eric-bailey"
 ---

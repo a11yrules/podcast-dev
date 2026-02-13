@@ -1,13 +1,20 @@
 ---
+# step 1. save as "2026-01-01-guest-name.md" and update front matter
 layout: guest
-title: 
-description: Information about my podcast guest 
-permalink: /guest/
+title: # insert {guest_name}
+description: Information about my podcast guest # insert {guest_name}
+permalink: /guest/.../ # replace ... with {first-last} name
 categories: guests
-slug: ""
+slug: "" # insert {first-last} name
 ---
 
+<!-- step 2. insert guest image -->
+<img src="{{ "/img/guest-name.jpg" | relative_url }}" alt="" class="guest-img">
 
+<!-- step 3. insert guest bio -->
+<p>insert guest bio</p>
+
+<!-- leave untouched -->
 <h2>Podcast Episodes Featuring {{ page.name }}</h2>
 
 <ul>

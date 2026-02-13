@@ -1,24 +1,24 @@
 ---
 layout: podcast
-title: ""
+title: "" # 1. WP podcast title
 type: podcast
-summary: ""
+summary: "" # 2. WP podcast summary
 
-permalink: 
+permalink: /podcast/... # 3. replace ... with {WP relative URL}
 # Podcast Episode Metadata
 episode_type: full
-episode_number: 
+episode_number: # 4. episode number found in WP Admin
 
 # Audio Information
-audio_url: 
+audio_url: # 5. podcast URL from WP page
 audio_type: "audio/mpeg"
 
 # Duration
-duration: ""
-duration_formatted: ""
+duration: "" # 6. eg. PT5M48S: number of minutes between the T and the M; number of seconds between the M and the S
+duration_formatted: "" # 7. formatted is MM:SS 
 
 # Series
-series: ""
+series: "" # 8. A11y Rules Podcast -or- A11y Rules Soundbites
 
 # Episode Artwork
 
@@ -27,14 +27,14 @@ series: ""
 author: "Nic Steenhout"
 
 guests:
-  - 
+  - # 9. {first-last} name of guest
   
 
 # Content Rating
 explicit: false
 
 # Categories/Tags
-categories: 
+categories: # 10. original -or- soundbites
 tags: 
 ---
 
@@ -51,11 +51,14 @@ tags:
 
 <details>
     <summary><h2>Transcript</h2></summary>
-    
+    <!-- 
+      copy pasta transcript from source code of WP page;
+      ensure <strong> wraps speaker name
+    -->
 
 
 </details>
 
 ## Show Notes
-
+<!-- leave blank -->
 
