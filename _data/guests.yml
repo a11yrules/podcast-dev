@@ -37,7 +37,7 @@
 - first_name: Alex
   last_name: Brenon
   image: /img/guest/alex-brenon.jpg
-  bio: "Alex is a recent graduate of Smith College, a developer who works in blended learning and teaching"
+  bio: "Alex is a recent graduate of Smith College, a developer who works in blended learning and teaching."
   url: /podcast-dev/guest/alex-brenon/
 
 - first_name: Dave
