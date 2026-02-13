@@ -1,0 +1,25 @@
+
+# Process / To-do
+
+/podcast-dev/
+`jekyll serve`
+
+(see spreadsheet for list of names with tracking to completion)
+
+Tasks:
+- [ ] Organize folders
+- [ ] Use data.guests for front matter
+- [ ] Add more info to guests.yml
+- [ ] Make all profile pages
+- [ ] Make all podcast pages
+- [x] Get organized with process
+- [x] Add all profile photos
+
+
+Process:
+- [ ] Load guest list. Work alphabetically from the start
+- [ ] Update info in guests.yml for each guest you’re working on
+- [ ] Create a guest profile page for each guest you’re working on
+- [ ] Create a podcast episode page for each episode
+- [ ] Repeat with following guest.
+- [x] Save guest photo from WP to GH
